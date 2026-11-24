@@ -41,17 +41,3 @@ The script calls the stored procedure and function, performs both a committed up
 9. Transactions with both `COMMIT` and `ROLLBACK`
 10. An order audit table populated by an `AFTER INSERT` trigger
 11. Sargable date filtering, explicit columns, and removal of unnecessary `DISTINCT`
-
-## Screenshot evidence
-
-Successful-execution screenshots are stored in `screenshots/` and embedded in the pull request description. The following evidence is present:
-
-- `task-1-advanced-join.png` — Task 1 customer/product join
-- `task-4-subquery.png` — Task 4 products above the average price
-- `task-9-window-function.png` — Task 9 product price ranking by category
-- `task-11-cte.png` — Task 11 customer spending CTE
-- `task-13-view.png` — Task 13 view creation and results
-- `task-15-explain.png` — Task 15 `EXPLAIN` output
-- `task-16-stored-procedure.png` — Task 16 procedure call and results
-- `task-18-transaction.png` — Task 18 committed and rolled-back updates
-- `task-19-trigger.png` — Task 19 trigger and audit row (**capture still needed**)
